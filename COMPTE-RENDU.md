@@ -20,17 +20,6 @@ L'identifiant du commit permet d'identifier précisément chaque version d'une i
 
 **Remarque :** Dans ce TP, `kind load` remplace localement l'étape de mise à disposition de l'image. Dans un véritable pipeline CI/CD, cette étape utiliserait un registre d'images avec `docker push`.
 
-### 7.2 — Workflow n8n
-
-À compléter.
-
-### 7.3 — Nettoyage
-
-À compléter.
-
-### Synthèse finale — CI/CD, n8n et nettoyage
-
-À compléter.
 
 ### 7.2 — Workflow n8n
 
@@ -53,3 +42,12 @@ Webhook GitLab → IF (statut = failed) → Slack (#petitpanier-ops)
 **Sécurité des identifiants :**
 
 Les identifiants et tokens de connexion sont stockés dans les Credentials de n8n et ne sont pas inscrits directement dans le workflow.
+
+### 7.3 — Nettoyage
+
+À compléter.
+
+### Synthèse finale — CI/CD, n8n et nettoyage
+
+À compléter.
+
